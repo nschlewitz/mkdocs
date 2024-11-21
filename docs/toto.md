@@ -1,6 +1,10 @@
-# Titre 1
+# Title 1
 
-## Titre 2
+## Title 2
 
-I removed some content and add more in my feature branch
+I removed some content and add more in my feature branch.
+
+## Title 3
+
+I have also updated the CI.
 
