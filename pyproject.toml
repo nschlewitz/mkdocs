@@ -6,11 +6,9 @@ authors = ["nicolas schlewitz <nicolas.schlewitz@orange.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-deps = [
-python = "^3.12",
-mkdocs = "1.6.1",
-mkdocs-material = "9.5.45",
-]
+python = "^3.12"
+mkdocs = "1.6.1"
+mkdocs-material = "9.5.45"
 
 [build-system]
 requires = ["poetry-core"]
