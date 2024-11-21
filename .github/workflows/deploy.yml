@@ -43,4 +43,4 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "actions@github.com"
         branch_name=$(echo "${GITHUB_REF##*/}")
-        mkdocs gh-deploy --force --branch "${branch_name}"
+        mkdocs gh-deploy --force -b "${branch_name}"
