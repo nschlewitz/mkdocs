@@ -44,4 +44,4 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "actions@github.com"
-        mkdocs gh-deploy --force
+        /home/runner/.local/bin/poetry run mkdocs gh-deploy --force
