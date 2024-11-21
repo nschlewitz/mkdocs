@@ -17,6 +17,7 @@ on:
     - 'docs/**'
     - 'mkdocs.yml'
     - 'theme/**'
+    - '.github/workflows/*'
     branches:
     - master
     #
