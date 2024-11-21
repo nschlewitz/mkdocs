@@ -94,7 +94,12 @@ repo_url: https://github.com/Andre601/mkdocs-template
 # +--------------------------------------------------------------------------------------------------------+
 nav:
   - Welcome: index.md
-  - Test: toto.md
+  - Environnement de Dev:
+      - Station de travail : ./dev/tools.md
+      - Premiers pas sous Poetry: ./dev/poetry.md
+      - Documentation en code: ./dev/doc_as_code.md
+  - Projet Accidents:
+      - Consignes: ./accidents/consignes.md
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
