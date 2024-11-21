@@ -13,6 +13,7 @@ name: Deploy Site
 on:
   push:
     paths: 
+    - '*'
     - 'docs/**'
     - 'mkdocs.yml'
     - 'theme/**'
