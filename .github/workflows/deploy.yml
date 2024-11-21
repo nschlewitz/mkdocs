@@ -38,6 +38,7 @@ jobs:
     - name: Install dependencies
       run: |
         id
+        whoami
         curl -sSL https://install.python-poetry.org | python3 -
         which poetry
         poetry install --no-root
