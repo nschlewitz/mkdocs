@@ -27,10 +27,9 @@
 # | - https://www.mkdocs.org/user-guide/configuration/#site_url                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-site_name: MkDocs Template
-site_description: 'A template for future MkDocs wikis'
-site_author: 'Andre_601'
-#site_url: 'https://www.andre601.ch/mkdocs-template' # Uncomment to set a canonical URL
+site_name: Documentation Car Accidents
+site_description: 'Documentation Car Accidents'
+site_author: 'Nicolas Schlewitz'
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -75,8 +74,8 @@ docs_dir: docs/
 # | - https://www.mkdocs.org/user-guide/configuration/#edit_uri                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-repo_name: Andre601/mkdocs-template
-repo_url: https://github.com/Andre601/mkdocs-template
+repo_name: DataScientest-Studio/Orange_JUN24_CDS_Accidents_Doc
+repo_url: https://github.com/DataScientest-Studio/Orange_JUN24_CDS_Accidents_Doc
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
 # +--------------------------------------------------------------------------------------------------------+
@@ -93,11 +92,12 @@ repo_url: https://github.com/Andre601/mkdocs-template
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 nav:
-  - Welcome: index.md
+  - Sommaire: index.md
   - Environnement de Dev:
       - Station de travail : ./dev/tools.md
       - Premiers pas sous Poetry: ./dev/poetry.md
       - Documentation en code: ./dev/doc_as_code.md
+      - About Mkdocs: ./dev/about.md
   - Projet Accidents:
       - Consignes: ./accidents/consignes.md
 
