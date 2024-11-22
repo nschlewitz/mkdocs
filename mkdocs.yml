@@ -74,8 +74,8 @@ docs_dir: docs/
 # | - https://www.mkdocs.org/user-guide/configuration/#edit_uri                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-repo_name: DataScientest-Studio/Orange_JUN24_CDS_Accidents_Doc
-repo_url: https://github.com/DataScientest-Studio/Orange_JUN24_CDS_Accidents_Doc
+repo_name: nschlewitz/mkdocs
+repo_url: https://github.com/nschlewitz/mkdocs
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
 # +--------------------------------------------------------------------------------------------------------+
